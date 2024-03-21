@@ -7,4 +7,3 @@ function isLeapYear(year) {
 
 console.log(isLeapYear(2024)); // 應返回閏年
 console.log(isLeapYear(1977)); // 應返回平年
-//test
