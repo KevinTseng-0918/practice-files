@@ -1,8 +1,8 @@
 const btn = document.getElementById("button");
 
-button.addEventListener("click", (e) => {
-  const newbox = document.createElement("div");
-  newbox.classList.add("box");
+btn.addEventListener("click", (e) => {
+  const newBox = document.createElement("div");
+  newBox.classList.add("box");
   const container = document.querySelector(".container");
-  container.appendChild(newbox);
+  container.appendChild(newBox);
 });
